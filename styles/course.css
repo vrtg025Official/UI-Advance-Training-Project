@@ -1,0 +1,27 @@
+/* img {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+} */
+
+.card {
+  color: white;
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+}
+
+.container h1 {
+  font-size: 60px;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  background: white;
+  border-radius: 30px;
+}

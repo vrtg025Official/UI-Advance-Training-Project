@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Rockford University</title>
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/navbar.css">
+  <link rel="stylesheet" href="../styles/contact-form.css">
+</head>
+
+<body>
+  <header>
+    <div id="navbar">
+      <div class="navitem"><a href="home.html">Rockford</a></div>
+      <div class="navitem"><a href="home.html">Home</a></div>
+      <div class="navitem"><a href="news.html">Newsletter</a></div>
+      <div class="navitem"><a href="faculty.html">Faculty</a></div>
+      <div class="navitem"><a href="course.html">Courses</a></div>
+      <div class="navitem"><a href="admission.html">Admission</a></div>
+      <div class="navitem"><a href="contact-us.html">Contact Us</a></div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="head" style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>For any queries, contact us!</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email id.." required>
+          <label for="phnumber">Phone Number</label>
+          <input type="number" id="phnumber" name="phonenumber" placeholder="Your Phone Number.." required>
+          <label for="subject">Write Your Query</label>
+          <textarea id="subject" name="subject" placeholder="Write Any Feedback/Query..." style="height:170px"></textarea>
+          <input type="submit" value="Submit" onclick="myalert()">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+        function myalert() {
+            alert("Query submitted succesfully. We'll contact you soon.\n" +
+                "Thank You");
+        }
+  </script>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.4076122296!2d-122.1719076846924!3d37.427474479824276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2a678bea9d%3A0x29cdf01a44fc687f!2sStanford%20University!5e0!3m2!1sen!2sin!4v1668596518457!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="../scripts/navbar.js"></script>
+  <script src="../scripts/location.js"></script>
+</body>
+
+</html>
